@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo 'Checking out from Git...'
-                git credentialsId: 'your-git-credentials-id', url: 'https://github.com/Arunkm039/Jenkinspipeline.git'
+                git credentialsId: 'git', url: 'https://github.com/Arunkm039/Jenkinspipeline.git'
             }
         }
         
